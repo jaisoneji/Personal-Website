@@ -3,6 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: "Jai Soneji | UI Developer",
   description: "Jai Soneji is a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences. He is currently working as UI Developer at media.net",
+  canonical: '/'
 };
 
 export const viewport = {
