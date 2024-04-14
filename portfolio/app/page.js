@@ -1,12 +1,18 @@
 import Image from "next/image";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
 
 export default function Home() {
   return (
-    <main className="min-h-screen  bg-slate-900">
+    <main className="min-h-screen">
       <Header />
-      <article className="max-w-[1280px] mx-auto w-full px-4 text-secondary">
-        
+      <article className="w-full bg-primary">
+        <section id="aboutme-section" className="">
+          <AboutMe />
+        </section>
+        <section id="experience-section">
+
+        </section>
       </article>      
     </main>
   );

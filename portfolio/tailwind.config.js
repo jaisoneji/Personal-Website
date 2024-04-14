@@ -24,7 +24,7 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#151515",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -58,7 +58,8 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
+        poppins: ['"Poppins"', 'sans-serif'],
+        kalam: ['"Kalam"']
       },
       keyframes: {
         "accordion-down": {
