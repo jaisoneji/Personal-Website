@@ -9,7 +9,7 @@ export default function AboutMe() {
   return (
     <div className='bg-primary h-screen'>
         <RoughNotationGroup show={true}>
-            <div className='pt-[64px] max-w-[1280px] mx-auto px-4 md:max-w-[920px] md:pt-[120px]'>
+            <div className='pt-[64px] max-w-[1280px] mx-auto px-4 pb-3 md:max-w-[920px] md:pt-[120px]'>
                 <Image
                     src="/images/profile.png"
                     width={100}
