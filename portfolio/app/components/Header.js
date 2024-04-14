@@ -32,7 +32,7 @@ function Header() {
                             !navOpen ? <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-align-justify"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg> : <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
                         }
                     </button>
-                    <div ref={navbar} className={`absolute md:static md:flex right-0 top-[55px] w-[145px] md:w-full rounded-lg shadow-md bg-zinc-800 transition-all ease-cubic-bezier-cubic-bezier-0-1-0-1  duration-400 md:translate-x-0 ${navOpen ? "translate-x-0 " : "translate-x-[10000px]"}`}>
+                    <div ref={navbar} className={`absolute md:static md:flex right-0 top-[55px] w-[145px] md:w-full rounded-lg shadow-md bg-zinc-800 transition-all ease-cubic-bezier-cubic-bezier-0-1-0-1 duration-400 ${navOpen ? "visible " : "invisible"}`}>
                         <nav className=' rounded-lg shadow-md'>
                             <ul className='md:flex md:flex-shrink-0 md:w-full gap-2'>
                                 <li className="p-4 cursor-pointer text-slate-50">Home</li>
