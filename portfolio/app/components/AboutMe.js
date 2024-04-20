@@ -7,9 +7,9 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 export default function AboutMe() {
   return (
-    <div className='bg-primary h-screen'>
+    <div className='bg-primary '>
         <RoughNotationGroup show={true}>
-            <div className='pt-[64px] max-w-[1280px] mx-auto px-4 pb-3 md:max-w-[920px] md:pt-[120px]'>
+            <div className='pt-[64px] max-w-[1280px] mx-auto px-4 md:max-w-[980px] md:pt-[120px]'>
                 <Image
                     src="/images/profile.png"
                     width={100}
@@ -106,7 +106,7 @@ export default function AboutMe() {
                         <image id="image0_29_20" width="90" height="90" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADHElEQVR4nO2dP2sUQRiHR1AjsdKk0IsgqIVlUqkImiKVn8GPcNHO9SOYQlS0FrRSBO1s/FMmisLFwkI/gWIVk+ZQ75GFLe4g7M3M7r4zN/M+kO7u/WUehtm7d+Z2jVEURVEURZkZgCPATeAjsMfsswd8AG4AcyYGgFPAF9JluxxjDDM5ZcnjssPN7Gq5yIX1kKLLNTkXtkKK3iUfdkOKzgqjomVQ0ULMuujXwHXgDHC0+rsCvCcyZlX0DnCtpvYB4CkRIWt3UoYvf4DLFvUPAueBJ0SAjNX9Rfhy1yPrOYHpxqLd4H34B5z2yDoLjAhINxbtBu/DoEHegIC0a89t4D48bpD3jIC0a89t4D7caZB3j4C0a89t4D5sNMjbICDt2nMbuA8vGuQF/eTRrj23gfvwCzjkkVV+pv5JQLqxaDd4H76WOzOeuznle4PRjUW7wfvwsEHeI4ecIXAL6NXU6wFF9drkRL9pkPfWIadwqFukKPovsOaRtVa915aeQ+1eiqKphC045BxzlOwqesmmoAkFzeg75PQ96rssHbdtCppQ0IwfwKJFxmL1WleG1dqb7cVwnPLiNl9Tfx54RyTI2p0U0QarNfWvEhGydidFtMFqTX0V3aLoizWiLxARJhQt/O9b5SbslA3aaI6dydqdFOHLCHgJHLfIWABehd7GKpGxur8EV0aVtBWPrBVH4dn2Or7VrccOmZeA7xZ5WfY6PpVfo1vMLb+Sf56SmV2v43d5VKCD7HNTjg1nJ/p+h/kPanKz63Usd5i/XJOrvY5ZpasJYzOjssKoaBlUtBAqWggVLYSKFkJFC6GihYhd9HBauzIUqbVJCxM5qbRJT5rIAU6kILpnIieVI2GFiZxU2qTDaUezQpHaxTAZVLQQKloIFS2EihZCRQsRu+ih9jpkRBcmcrTXIYT2OoTQXocQ2uvoGO11RErIGZEVRkXLoKKFUNFCqOgMROd06/mdkKKj+VVr6g9TKJ+8kwv9kKLnqofBpM4AOBxM9NgjnLYTl7xkYqCa2evV3QpSuEDuApvVvZzCzmRFURRFURTjwn/aX/SaFGQg0AAAAABJRU5ErkJggg=="/>
                         </defs>
                         </svg>
-                        <a className='text-[10px] md:text-sm text-white' download="Jai Prem Soneji - Resume.pdf" href="/resume/Jai Prem Soneji - Resume.pdf">
+                        <a className='text-[10px] md:text-sm text-white' href="/resume/Jai Soneji - Resume.pdf">
                             <span>CV</span>
                         </a>
                     </Pills>
