@@ -97,20 +97,20 @@ function Projects() {
             {
                 projectsData.map((project) => (
                     <div className='project-item mb-12 last-of-type:mb-0' key={project.id}>
-                        <h3 className='font-semibold font-poppins  mb-3 text-[#FFEA9F] leading-normal text-base md:text-2xl'>
+                        <h3 className='font-semibold font-poppins  mb-3 md:mb-4 text-[#FFEA9F] leading-normal text-base md:text-2xl'>
                             <Link className='flex gap-2 items-center' href={project.link} target='_blank'>
                                 {project.title}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                             </Link>
                         </h3>
-                        <div className='text-sm md:text-xl text-white font-poppins mb-3 md:mb-6'>
+                        <div className='text-sm md:text-lg text-white font-poppins mb-3 md:mb-4'>
                             {parse(project.description)}
                         </div>
-                        <div className='flex flex-wrap gap-3 md:gap-6'>
+                        <div className='flex flex-wrap gap-3'>
                             {
                                 project.languages.map(language => (
-                                    <Pills key={language.id}>
-                                        <span className='text-[10px] md:text-lg text-white font-semibold'>{language.title}</span>
+                                    <Pills  className={'py-1 px-2 md:px-3 md:py-2'} key={language.id}>
+                                        <span className='text-xs md:text-sm md:text-lg text-white font-semibold'>{language.title}</span>
                                     </Pills>
                                 ))
                             }
