@@ -1,0 +1,19 @@
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 0 10px 0 rgba(241, 239, 239, 0.1);
+    background-color: #ffffff !important;
+    transition: all;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+
+    .site-initials {
+        @apply text-zinc-900
+    }
+
+    .hamburger {
+        @apply fill-zinc-900 stroke-zinc-900
+    }
+}

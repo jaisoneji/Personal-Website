@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />
-      <article className="w-full bg-primary">
+      <article className="w-full bg-primary pt-[65px]">
         <section id="aboutme-section" className="mb-20 md:mb-24">
           <AboutMe />
         </section>
