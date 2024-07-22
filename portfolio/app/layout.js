@@ -1,4 +1,5 @@
 import "./globals.css";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Jai Soneji | UI Developer",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="font-poppins bg-primary">{children}</body>
+      <GoogleTagManager gtmId="GTM-WX2RLRRV" />
     </html>
   );
 }
