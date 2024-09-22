@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'Jai Soneji | Frontend Developer',
     description: "Jai Soneji is a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences.",
-    images: '/favicon.png'
+    images: 'https://jaisoneji.vercel.app/images/favicon.png'
   },
   alternates: {
     canonical: '/',
