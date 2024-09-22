@@ -2,9 +2,17 @@ import "./globals.css";
 import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata = {
-  title: "Jai Soneji | UI Developer",
-  description: "Jai Soneji is a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences. He is currently working as UI Developer at media.net",
-  canonical: '/'
+  metadataBase: new URL('https://jaisoneji.vercel.app'),
+  title: "Jai Soneji | Frontend Developer",
+  description: "Jai Soneji is a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences.",
+  openGraph: {
+    title: 'Jai Soneji | Frontend Developer',
+    description: "Jai Soneji is a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences.",
+    images: '/favicon.png'
+  },
+  alternates: {
+    canonical: '/',
+  }
 };
 
 export const viewport = {
