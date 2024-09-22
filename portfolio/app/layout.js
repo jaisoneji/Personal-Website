@@ -12,6 +12,9 @@ export const metadata = {
   },
   alternates: {
     canonical: '/',
+  },
+  verification: {
+    google: "khRByGtGipP5s5OyEtNSsIh7TqV5AcFvS08Cedgj5J4"
   }
 };
 
