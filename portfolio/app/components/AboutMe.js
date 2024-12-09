@@ -4,6 +4,7 @@ import React from 'react';
 import Pills from './Pills/Pills';
 import Image from 'next/image';
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { JOB_DETAILS } from '@/const';
 
 export default function AboutMe() {
   return (
@@ -29,10 +30,10 @@ export default function AboutMe() {
                         />
                     </h1>
                 </div>
-                <h2 className='text-gray-400 mb-4 md:mb-5 text-lg font-kalam'>UI Developer <Link href="https://media.net">
+                <h2 className='text-gray-400 mb-4 md:mb-5 text-lg font-kalam'>{JOB_DETAILS[0].role} <Link href="https://media.net">
                     <span className='text-white ml-1'>
                         <RoughNotation type="highlight" color={'rgba(24,150,255,0.76)'} padding={'2px'} strokeWidth={2} animationDuration={1000} order="1">
-                            @media.net
+                            @{JOB_DETAILS[0]?.companyName}
                         </RoughNotation>
                     </span>
                 </Link></h2>
@@ -43,9 +44,9 @@ export default function AboutMe() {
                     <p className='mb-2 md:mb-3.5'>
                         Over the past <span className='text-[#FFBBC3] mx-1 font-kalam'>
                         <RoughNotation type="box" color={'#FFBBC3'} padding={'8px'} strokeWidth={2} animationDuration={1000} order="2">
-                            {Number(new Date().getFullYear()) - Number(2021)} years
+                            {Number(new Date().getFullYear()) - Number(2021)}+ years
                         </RoughNotation>
-                        </span>, I've had the privilege of honing my skills and making meaningful contributions as a valued member of the talented team at media.net.
+                        </span>, I've had the privilege of honing my skills and making meaningful contributions as a valued member of the talented team at {JOB_DETAILS[0].companyName}.
                     </p>
                     
                     <p>

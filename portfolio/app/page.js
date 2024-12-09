@@ -14,11 +14,11 @@ export default function Home() {
         <section id="aboutme-section" className="mb-20 md:mb-24">
           <AboutMe />
         </section>
-        <section id="projects-section" className="mb-20 md:mb-24">
-          <Projects />
-        </section>
         <section id="experience-section" className="mb-20 md:mb-24">
           <Experience />
+        </section>
+        <section id="projects-section" className="mb-20 md:mb-24">
+          <Projects />
         </section>
         <section id="skills-section" className="mb-20 md:mb-24">
           <Skills />
