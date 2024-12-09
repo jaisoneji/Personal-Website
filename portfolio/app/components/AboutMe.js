@@ -30,13 +30,11 @@ export default function AboutMe() {
                         />
                     </h1>
                 </div>
-                <h2 className='text-gray-400 mb-4 md:mb-5 text-lg font-kalam'>{JOB_DETAILS[0].role} <Link href="https://media.net">
-                    <span className='text-white ml-1'>
+                <h2 className='text-gray-400 mb-4 md:mb-5 text-lg font-kalam'>{JOB_DETAILS[0].role} <span className='text-white ml-1'>
                         <RoughNotation type="highlight" color={'rgba(24,150,255,0.76)'} padding={'2px'} strokeWidth={2} animationDuration={1000} order="1">
                             @{JOB_DETAILS[0]?.companyName}
                         </RoughNotation>
-                    </span>
-                </Link></h2>
+                    </span></h2>
                 <div className='text-white text-sm md:text-xl font-poppins tracking-wide text-left mb-4 md:mb-5 leading-6'>
                     <p className='mb-2 md:mb-3.5'>
                         I am a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences.

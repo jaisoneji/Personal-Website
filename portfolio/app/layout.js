@@ -5,7 +5,7 @@ export const metadata = {
   metadataBase: new URL('https://jaisoneji.vercel.app'),
   title: "Jai Soneji | Frontend Developer",
   description: "Jai Soneji is a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences.",
-  keywords: ['Jai Soneji UI Developer', 'jai soneji frontend', 'jai soneji vesit','jai soneji frontend developer','software developer','next.js', 'javascript','Indian Developer','jai soneji media.net','experienced frontend developer', 'jay soneji'],
+  keywords: ['Jai Soneji Application Developer','IBM','BFSI','Banking','Redux','reactjs','Jai Soneji UI Developer', 'jai soneji frontend', 'jai soneji vesit','jai soneji frontend developer','software developer','next.js', 'javascript','Indian Developer','jai soneji media.net','experienced frontend developer', 'jay soneji'],
   openGraph: {
     title: 'Jai Soneji | Frontend Developer',
     description: "Jai Soneji is a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences.",
