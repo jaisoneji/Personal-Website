@@ -6,7 +6,7 @@ export const JOB_DETAILS = [
         "end": "Present",
     },
     {
-        "role": "UI Developer (L2)",
+        "role": "UI Developer",
         "companyName": "Media.net",
         "start": "October 2021",
         "end": "October 2024",
