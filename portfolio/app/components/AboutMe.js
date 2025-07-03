@@ -44,11 +44,11 @@ export default function AboutMe() {
                         <RoughNotation type="box" color={'#FFBBC3'} padding={'8px'} strokeWidth={2} animationDuration={1000} order="2">
                             {Number(new Date().getFullYear()) - Number(2021)}+ years
                         </RoughNotation>
-                        </span>, I've had the privilege of honing my skills and making meaningful contributions as a valued member of the talented team at {JOB_DETAILS[0].companyName}.
+                        </span>, I’ve had the opportunity to grow professionally and make meaningful contributions across diverse projects, working alongside talented teams in fast-paced, collaborative environments..
                     </p>
                     
                     <p>
-                        Throughout my journey, I've navigated a diverse landscape of technologies, from the foundational trio of HTML, CSS, and JavaScript to the dynamic worlds of Vue.js and React.js. Along the way, I've also delved into the realms of PHP and WordPress, expanding my toolkit to meet the ever-evolving demands of the digital realm. And trust me, there's always more to explore.
+                        I’ve worked across a broad spectrum of technologies—starting with the fundamentals of HTML, CSS, and JavaScript, and progressing into modern frameworks like React.js and Vue.js. My experience also extends into PHP and WordPress, allowing me to build and customize both dynamic applications and content-driven platforms. I’m always exploring new tools and technologies to stay ahead in this ever-evolving digital landscape.
                     </p>
                     
                 </div>
