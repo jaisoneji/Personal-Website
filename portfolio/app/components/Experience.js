@@ -29,22 +29,19 @@ function Experience() {
                         <div className="mt-1 text-sm text-white">
                             <ul className='list-disc pl-[18px] mb-3 text-sm md:text-lg'>
                                 <li className='mb-2 last-of-type:mb-0'>
-                                    Developed and maintained various frontend features for a <span className='font-bold'>BFSI web application</span> using React.js, improving user experience and application performance.
+                                    Working on a customer-centric web application for a leading NBFC, enabling end-to-end vehicle loan application and management, using <span className='font-bold'>React 18, Redux, Redux Saga, Sass, and Material UI.</span>
                                 </li>
                                 <li className='mb-2 last-of-type:mb-0'>
-                                    Implemented a KYC verification module for secure customer identity validation, leveraging <span className='font-bold'>React hooks, Redux, and Axios for API integration and state management</span>.
+                                    Responsible for <span className='font-bold'>building the Vehicle Loan module</span> from scratch within a BFF architecture integrated with Capella Couchbase backend services.
                                 </li>
                                 <li className='mb-2 last-of-type:mb-0'>
-                                    Collaborated with cross-functional teams to ensure seamless data flow between frontend and backend, following <span className='font-bold'>security and compliance standards.</span>
+                                    Integrated third-party services for document and bank statement analysis, implementing frontend polling to monitor processing status and efficiently handle results.
                                 </li>
-                                <li className='mb-2 last-of-type:mb-0'>Optimized application performance by implementing reusable components and enhancing device responsiveness.</li>
+                                <li className='mb-2 last-of-type:mb-0'>Developed a custom developer plugin to decrypt encrypted API payloads from network logs, enhancing debugging efficiency and maintaining secure data handling.</li>
                             </ul>
                             <div>
                                 <h4 className='text-sm mb-3 font-bold'>Technologies Used</h4>
                                 <div className='flex items-center flex-wrap gap-3 text-xs md:text-sm'>
-                                    <Pills className={'py-1 px-2 md:px-3 md:py-2'}>
-                                        <span>HTML/CSS</span>
-                                    </Pills>
                                     <Pills  className={'py-1 px-2'}>
                                         <span>JavaScript</span>
                                     </Pills>
@@ -55,7 +52,13 @@ function Experience() {
                                         <span>Redux</span>
                                     </Pills>
                                     <Pills  className={'py-1 px-2'}>
-                                        <span>Postman</span>
+                                        <span>Redux Saga</span>
+                                    </Pills>
+                                    <Pills  className={'py-1 px-2'}>
+                                        <span>Material UI</span>
+                                    </Pills>
+                                    <Pills  className={'py-1 px-2'}>
+                                        <span>Tailwind CSS</span>
                                     </Pills>
                                 </div>
 
