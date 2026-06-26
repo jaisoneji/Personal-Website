@@ -4,16 +4,34 @@
     left: 0;
     width: 100%;
     z-index: 999;
-    box-shadow: 0 0 10px 0 rgba(241, 239, 239, 0.1);
-    background-color: #ffffff !important;
+    box-shadow: 0 0 12px rgba(16, 185, 129, 0.3);
+    background: linear-gradient(
+        135deg,
+        #000000,
+        #0c151e, /* Darker shade of your blue */
+        #152331, /* Your exact dark blue */
+        #1a2e42  /* Slightly brighter blue variant to highlight the motion */
+    );
     transition: all;
-    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: blueWave 18s ease infinite;
 
     .site-initials {
-        @apply text-zinc-900
+        @apply text-white
     }
 
     .hamburger {
         @apply fill-zinc-900 stroke-zinc-900
     }
+}
+
+@keyframes blueWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
