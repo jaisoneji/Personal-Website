@@ -29,7 +29,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-poppins bg-primary">{children}</body>
+      <body className="font-poppins">{children}</body>
       <GoogleTagManager gtmId="GTM-WX2RLRRV" />
     </html>
   );

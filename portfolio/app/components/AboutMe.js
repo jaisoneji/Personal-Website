@@ -8,7 +8,7 @@ import { JOB_DETAILS } from '@/const';
 
 export default function AboutMe() {
   return (
-    <div className='bg-primary '>
+    <div className=' '>
         <RoughNotationGroup show={true}>
             <div className='pt-[64px] max-w-[1280px] mx-auto px-4 md:max-w-[980px] md:pt-[120px]'>
                 <Image

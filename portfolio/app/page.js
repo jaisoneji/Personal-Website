@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />
-      <article className="w-full bg-primary pt-[65px]">
+      <article className="w-full">
         <section id="aboutme-section" className="mb-20 md:mb-24">
           <AboutMe />
         </section>
