@@ -93,7 +93,7 @@ function Header() {
                                 </li>
                                 <li className="menu-items p-4 cursor-pointer text-slate-50 md:hover:bg-zinc-700 transition-colors">
                                     <a download="Jai Soneji - Resume.pdf" href="/resume/jai_soneji_resume.pdf">
-                                        CV
+                                        Resume
                                     </a>
                                 </li>
                             </ul>
