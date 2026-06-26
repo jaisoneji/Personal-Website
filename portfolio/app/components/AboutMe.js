@@ -37,18 +37,18 @@ export default function AboutMe() {
                     </span></h2>
                 <div className='text-white text-sm md:text-xl font-poppins tracking-wide text-left mb-4 md:mb-5 leading-6'>
                     <p className='mb-2 md:mb-3.5'>
-                        I am a passionate frontend developer with a creative flair and a knack for crafting captivating digital experiences.
-                    </p>
-                    <p className='mb-2 md:mb-3.5'>
-                        Over the past <span className='text-[#FFBBC3] mx-1 font-kalam'>
+                        I am a Full Stack Developer with <span className='text-[#FFBBC3] mx-1 font-kalam'>
                         <RoughNotation type="box" color={'#FFBBC3'} padding={'8px'} strokeWidth={2} animationDuration={1000} order="2">
                             {Number(new Date().getFullYear()) - Number(2021)}+ years
                         </RoughNotation>
-                        </span>, I’ve had the opportunity to grow professionally and make meaningful contributions across diverse projects, working alongside talented teams in fast-paced, collaborative environments..
+                        </span> of experience building scalable, high-performance web applications across Banking, NBFC, and Ad-Tech domains. From architecting modular frontends for high-security Internet Banking platforms to delivering features for content platforms with 25M+ monthly active users, I've had the opportunity to work on meaningful, high-impact products alongside talented teams.
+                    </p>
+                    <p className='mb-2 md:mb-3.5'>
+                        My expertise spans the full frontend spectrum — React 18, Redux, Redux-Saga, Vue.js, TailwindCSS, and SASS — with a strong focus on performance optimization, modular component design, and state management architecture. I've driven measurable results like boosting Lighthouse scores from 70 to 90+, improving Core Web Vitals to 99%, and reducing duplicate UI logic by 30% through reusable component systems.
                     </p>
                     
                     <p>
-                        I’ve worked across a broad spectrum of technologies—starting with the fundamentals of HTML, CSS, and JavaScript, and progressing into modern frameworks like React.js and Vue.js. My experience also extends into PHP and WordPress, allowing me to build and customize both dynamic applications and content-driven platforms. I’m always exploring new tools and technologies to stay ahead in this ever-evolving digital landscape.
+                        Beyond the frontend, I've extended my work into backend development — designing and building secure REST APIs using Java Spring Boot for banking workflows, and building internal tooling that meaningfully improved developer efficiency. I'm always exploring new technologies to stay sharp in this fast-moving landscape.
                     </p>
                     
                 </div>
@@ -108,7 +108,7 @@ export default function AboutMe() {
                             <image id="image0_29_20" width="90" height="90" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADHElEQVR4nO2dP2sUQRiHR1AjsdKk0IsgqIVlUqkImiKVn8GPcNHO9SOYQlS0FrRSBO1s/FMmisLFwkI/gWIVk+ZQ75GFLe4g7M3M7r4zN/M+kO7u/WUehtm7d+Z2jVEURVEURZkZgCPATeAjsMfsswd8AG4AcyYGgFPAF9JluxxjDDM5ZcnjssPN7Gq5yIX1kKLLNTkXtkKK3iUfdkOKzgqjomVQ0ULMuujXwHXgDHC0+rsCvCcyZlX0DnCtpvYB4CkRIWt3UoYvf4DLFvUPAueBJ0SAjNX9Rfhy1yPrOYHpxqLd4H34B5z2yDoLjAhINxbtBu/DoEHegIC0a89t4D48bpD3jIC0a89t4D7caZB3j4C0a89t4D5sNMjbICDt2nMbuA8vGuQF/eTRrj23gfvwCzjkkVV+pv5JQLqxaDd4H76WOzOeuznle4PRjUW7wfvwsEHeI4ecIXAL6NXU6wFF9drkRL9pkPfWIadwqFukKPovsOaRtVa915aeQ+1eiqKphC045BxzlOwqesmmoAkFzeg75PQ96rssHbdtCppQ0IwfwKJFxmL1WleG1dqb7cVwnPLiNl9Tfx54RyTI2p0U0QarNfWvEhGydidFtMFqTX0V3aLoizWiLxARJhQt/O9b5SbslA3aaI6dydqdFOHLCHgJHLfIWABehd7GKpGxur8EV0aVtBWPrBVH4dn2Or7VrccOmZeA7xZ5WfY6PpVfo1vMLb+Sf56SmV2v43d5VKCD7HNTjg1nJ/p+h/kPanKz63Usd5i/XJOrvY5ZpasJYzOjssKoaBlUtBAqWggVLYSKFkJFC6GihYhd9HBauzIUqbVJCxM5qbRJT5rIAU6kILpnIieVI2GFiZxU2qTDaUezQpHaxTAZVLQQKloIFS2EihZCRQsRu+ih9jpkRBcmcrTXIYT2OoTQXocQ2uvoGO11RErIGZEVRkXLoKKFUNFCqOgMROd06/mdkKKj+VVr6g9TKJ+8kwv9kKLnqofBpM4AOBxM9NgjnLYTl7xkYqCa2evV3QpSuEDuApvVvZzCzmRFURRFURTjwn/aX/SaFGQg0AAAAABJRU5ErkJggg=="/>
                             </defs>
                             </svg>
-                            <span>CV</span>
+                            <span>Resume</span>
                         </a>
                     </Pills>
                 </div>
