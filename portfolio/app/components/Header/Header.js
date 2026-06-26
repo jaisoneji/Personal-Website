@@ -40,7 +40,7 @@ function Header() {
     useEffect(() => {
         const isSticky = (e) => {
             const scrollTop = window.scrollY;
-            scrollTop >= 250 ? header.current.classList.add('is-sticky') : header.current.classList.remove('is-sticky');
+            scrollTop >= 100 ? header.current.classList.add('is-sticky') : header.current.classList.remove('is-sticky');
         };
         window.addEventListener('scroll', isSticky);
         return () => {
@@ -59,7 +59,7 @@ function Header() {
     }
 
     return (
-        <header ref={header} className={`header-wrap absolute top-0 left-0 right-0 sticky transition-all ease-in-out delay-150 `}>
+        <header ref={header} className={`header-wrap absolute top-0 left-0 right-0 sticky transition-all ease-in-out delay-150 z-10`}>
             <div className='header-container  font-poppins flex items-center justify-between py-3 md:py-3 px-4 md:px-6 max-w-[980px] mx-auto'>
                 <Link href="/">
                     <span title='Jai Soneji' className="site-initials text-accent font-kalam text-2xl ">Jai Soneji</span>

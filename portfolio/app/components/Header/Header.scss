@@ -4,29 +4,12 @@
     left: 0;
     width: 100%;
     z-index: 999;
-    box-shadow: 0 0 50px #5a9fff4d;
+    box-shadow: 0 0 12px rgb(255 255 255 / 38%);
     transition: all;
-    animation: blueWave 18s ease infinite;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(3px) saturate(100%);
+    background: hsla(0,0%,100%,.1);
+    backdrop-filter: blur(4px) saturate(160%);
 
     .site-initials {
         @apply text-white
     }
-
-    .hamburger {
-        @apply fill-zinc-900 stroke-zinc-900
-    }
-}
-
-@keyframes blueWave {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
