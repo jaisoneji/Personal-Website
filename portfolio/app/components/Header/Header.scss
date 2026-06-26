@@ -5,15 +5,10 @@
     width: 100%;
     z-index: 999;
     box-shadow: 0 0 50px #5a9fff4d;
-    background: linear-gradient(
-        135deg,
-        #000000,
-        #0c151e, /* Darker shade of your blue */
-        #152331, /* Your exact dark blue */
-        #1a2e42  /* Slightly brighter blue variant to highlight the motion */
-    );
     transition: all;
     animation: blueWave 18s ease infinite;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px) saturate(100%);
 
     .site-initials {
         @apply text-white

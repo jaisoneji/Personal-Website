@@ -10,7 +10,7 @@ export default function AboutMe() {
   return (
     <div className=' '>
         <RoughNotationGroup show={true}>
-            <div className='pt-[64px] max-w-[1280px] mx-auto px-4 md:max-w-[980px] md:pt-[120px]'>
+            <div className='py-[64px] max-w-[1280px] mx-auto px-4 md:max-w-[980px]'>
                 <Image
                     src="/images/profile.png"
                     width={100}
